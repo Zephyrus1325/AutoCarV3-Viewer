@@ -23,7 +23,7 @@ public class ControlPanel {
         motorLMode = new Switch(1150,505,100,30,p);
         motorRMode = new Switch(1150,540,100,30,p);
         console = new Console(map_w + border * 3, border*2 + 30, 350 - border * 2, 400 - 60, p);
-        map = new MapRenderer(180,110, p);
+        map = new MapRenderer(475,400, p);
     }
 
 
